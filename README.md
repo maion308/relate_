@@ -62,10 +62,11 @@ https://ninjamock.com/s/KMHCCFx
 
 ## UI Components
 
-Rails front end will work with views
-index.html.erb will render mostly main page
+I will use rails front end and will parsel each post view inside index.html.erb in posts folder
+index.html.erb will render in order what we want viewed
 forms.html.erb will render the forms using bulma
 feed.html.erb will render the posts and allow postmvp functionality
+trends will render what is trending view in post mvp
 
 #### SAMPLE.....
 | Component | Description | 
