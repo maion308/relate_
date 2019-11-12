@@ -29,7 +29,7 @@ https://ninjamock.com/s/KMHCCFx
 
 ## Priority Matrix
 
-<img src="./20191107_130910.jpg">
+<img src="">
 
 ### MVP/PostMVP - 5min
 
