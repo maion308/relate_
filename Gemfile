@@ -10,6 +10,11 @@ gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
+gem "bulma-rails", "~> 0.8.0"
+gem 'simple_form', '~> 5.0', '>= 5.0.1'
+gem 'gravatar_image_tag', '~> 1.2'
+gem 'devise', '~> 4.7', '>= 4.7.1'
+
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'
@@ -40,6 +45,10 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'better_errors', '~> 2.5', '>= 2.5.1'
+  gem 'guard', '~> 2.16', '>= 2.16.1'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+  gem 'binding_of_caller'
 end
 
 group :test do
