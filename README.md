@@ -1,5 +1,7 @@
 # rElate
 social network application
+## Here is the live version
+https://hidden-lowlands-86309.herokuapp.com/
 # Project Overview
 
 ## Project Schedule
