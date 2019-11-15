@@ -13,17 +13,17 @@ You are **responsible** for attending squad standup at the begining and end of t
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Create Project Repo | Complete
-|Day 2| Wireframes / Priority Matrix / ERD | Incomplete
-|Day 3| Create new rails app, create db, scaffolding, test postman | Incomplete
-|Day 4| Create rails front-end create basic routing  | Incomplete
-|Day 5| Create logic for views css styling, complete MVP  | Incomplete
+|Day 2| Wireframes / Priority Matrix / ERD | Complete
+|Day 3| Create new rails app, create db, scaffolding, test postman | Complete
+|Day 4| Create rails front-end create basic routing  | Complete
+|Day 5| Create logic for views css styling, complete MVP  | Complete
 |Day 6| Add final touches, deploy the application | Incomplete
 |Day 7| Present | Incomplete
 
 
 ## Project Description
 
-rElate is a bare bones social network application that that integrates daily new article feeds on the landing page. The user can register, create profile, create posts and view other users.
+rElate is a bare bones social network application that that integrates daily new article feeds on the landing page. The user can register, create profile, create posts and view other users. 
 
 ## Wireframes
 
