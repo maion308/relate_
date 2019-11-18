@@ -26,6 +26,16 @@
     }
 }
 
-.notifications:not(:last-child){
-    margin-bottom: 0%;
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-email {
+    background-color: red;
+}
+
+.header-center {
+    text-align: center;
+    font-size: 40px;
 }

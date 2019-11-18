@@ -14,7 +14,7 @@ gem "bulma-rails", "~> 0.8.0"
 gem 'simple_form', '~> 5.0', '>= 5.0.1'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'devise', '~> 4.7', '>= 4.7.1'
-
+gem 'react-rails', '~> 2.6'
 gem 'sass-rails', '>= 6'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'

@@ -4,10 +4,9 @@
     <title>RelateApp</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= stylesheet_link_tag "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" %>
   </head>
 
   <body>
@@ -21,22 +20,15 @@
      <p class="alert"><%= alert %></p>
      </div>
      <% end %>
-
-     
   <nav class="navbar has-background-primary">
   <div class="navbar-brand">
   <%= link_to root_path, class: "navbar-item" do %>
  <h1 class="title is-1 has-text-light ">rElate</h1>
   <% end %>
-
-
-  </div>
-
 			<div id="navbarExample" class="navbar-brand">
 				<div class="navbar-end">
           <div class="navbar-item">
 					<div class="field is-grouped">
-          
             <% if user_signed_in? %>
             	<p class="control">
 							<%= link_to 'New Post', root_path, class: "button is-info is-inverted" %>
@@ -60,7 +52,6 @@
 				</div>
 			</div>
   	</nav>
-
     <%= yield %>
   </body>
 </html>

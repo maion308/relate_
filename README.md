@@ -17,8 +17,8 @@ You are **responsible** for attending squad standup at the begining and end of t
 |Day 3| Create new rails app, create db, scaffolding, test postman | Complete
 |Day 4| Create rails front-end create basic routing  | Complete
 |Day 5| Create logic for views css styling, complete MVP  | Complete
-|Day 6| Add final touches, deploy the application | Incomplete
-|Day 7| Present | Incomplete
+|Day 6| Add final touches, deploy the application | Complete
+|Day 7| Present | IncomCompleteplete
 
 
 ## Project Description
@@ -37,7 +37,7 @@ https://ninjamock.com/s/KMHCCFx
 
 The MVP functionality of rElate application consists of user and post. A user can post and their post will be saved, with option to delete post. The user will have the ability to read current news feeds and search a news related topic
 
-PostMVP will feature friends options, comments to posts and likes dislikes to posts.
+PostMVP will feature friends options, comments to posts and likes dislikes to posts.News feed will render on landing page using react
 
 #### SAMPLE.....
 #### MVP 
@@ -73,14 +73,11 @@ trends will render what is trending view in post mvp
 #### SAMPLE.....
 | Component | Description | 
 | --- | :---: |  
-| Header | This component will render a background image and some font | 
-| Footer | Footer component will include links to contact, and a variety of other links perhaps postmvp links| 
+| feed | This will render data depending on sign in status | 
+| Form | This will render forms | 
 | Register | This component will render a form that accepts user input | 
-| LandingPage| This component will render, search bar, news feeds and login sign up nav links | 
-| Nav | This component will include links to login, sign in, landing page | 
+| Index.html.erb| This will render main page | 
 | Post | This component is rendered after sign in, will render form to post text|
-| signout | This component will allow a user to sign out with a button click| 
-
 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
@@ -110,7 +107,7 @@ Helper functions should be generic enought that they can be reused in other appl
 | Capitalize | This will capitalize the first letter in a string of text | 
 
 ## Additional Libraries
-axios,
+bulma, sass, react-rails, guard
  
  #### SAMPLE.....
 | Library | What it Does | 
@@ -131,7 +128,10 @@ function reverse(string) {
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+trying to use this gem 
+https://rubygems.org/gems/react-rails/versions/1.7.1
+I made attempt to work with react-on-rails-gem instead of building the client folder and create-react-app so that I can be more efficient with files and folders. I am only using react to do some 3rd party api calling and I went a new route with the react-rails gem, but I am having difficulty working with the documentation on it, as it is not working as I am following along and trying to do my own thing of it.
+This will be a great learning experience once i get it to work and I will continue to improve the app and do what I actually want out of it.
 
 #### SAMPLE.....
 | Original Plan | Outcome | 
@@ -144,3 +144,15 @@ function reverse(string) {
 #### SAMPLE.....
 **ERROR**:                               
 **RESOLUTION**: 
+
+
+### sources and documentation used to help the build of this app
+this was used to learn how to use and customize devise for authentication
+https://github.com/plataformatec/devise
+
+This documentation was used to learn how to use simple forms 
+https://rdoc.info/github/plataformatec/simple_form/master/frames
+
+thisa documentation was used as a guide to help further understand how customization works with rails gems devise, simple-form and bulma as it is a common collection made specifically for rails.
+
+https://dev.to/justalever/lets-build-with-ruby-on-rails---a-twitter-clone---23f5
