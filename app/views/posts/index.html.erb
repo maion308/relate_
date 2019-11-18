@@ -4,14 +4,12 @@
     	<% if user_signed_in? %>
     		<%= render 'profile' %>
     	<% else %>
-      <div>
-      <h1 class="header-center">Recent Posts</h1>
            <%= render 'feed' %>
-      </div>
       <% end %>
+
+     
       <div>
-      <%# still reading the docs and testing but have not got it to render using the react gem  %>
-     <%# i need to add the react api here using react-rails gem %>
+      <%= react_component("Post", {title: "Test"}) %>
       </div>
     </div>
   </div>
