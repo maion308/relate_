@@ -1,6 +1,6 @@
 <div class="column is-one-quarter">
 	<nav class="panel is-primary ">
-		<p class="panel-heading center">Profile</p>
+		<p class="panel-heading">Profile</p>
 		<div class="panel-block">
 			<article class="media">
 				<div class="media-left">
@@ -8,14 +8,15 @@
 						<%= gravatar_image_tag(current_user.email, size: 64, alt: current_user.name) %>
 					</figure>
 				</div>
+			
 				<div class="content">
-					
 						<p>
 							<h5><%= current_user.email %></h5>
 							<small><%= current_user.id %></small>
 						</p>
 				
 				</div>
+			
 			</article>
 		</div>
 		<div class="panel-block">

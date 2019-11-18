@@ -3,11 +3,12 @@
     <div class="columns">
     	<% if user_signed_in? %>
     		<%= render 'profile' %>
+         <%= render 'feed' %>
     	<% else %>
            <%= render 'feed' %>
       <% end %>
 
-     
+      
       <div>
       <%= react_component("Post", {title: "Test"}) %>
       </div>
